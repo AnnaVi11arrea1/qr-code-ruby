@@ -13,3 +13,4 @@ png = qrcode.as_png({ :size => 500})
 
 
 IO.binwrite("sometest.png", png.to_s)
+
